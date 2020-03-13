@@ -1,8 +1,8 @@
 version: '3'
 services:
 
-  inewgent_api:
-    container_name: inewgent_api
+  inewgent_api_node:
+    container_name: inewgent_api_node
     build: .
     command: pm2-dev ./app/server.js
     environment:
