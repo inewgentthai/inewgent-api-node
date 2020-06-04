@@ -30,7 +30,7 @@ app.use(bodyParserHandler); // error handling specific to body parser only
 app.use(globalResponseHeaders);
 
 app.get('/', function (req, res) {
-  res.json({ status: 200, title: 'OK', message: 'hello world' })
+  res.json({ status: 200, title: 'OK', message: 'hello world (www.addboxs.com)' })
 })
 
 app.use('/things', thingsRouter);
